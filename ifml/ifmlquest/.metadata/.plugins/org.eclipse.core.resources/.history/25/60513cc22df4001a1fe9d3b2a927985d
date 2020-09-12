@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description">
+  <viewpoint:DAnalysis xmi:id="_SPI4QPQMEeqBr6xDc0l2PQ" selectedViews="_sYFXEPQMEeqBr6xDc0l2PQ" version="12.1.2.201804131029">
+    <semanticResources>models/model.uml</semanticResources>
+    <semanticResources>models/My.core</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_sYFXEPQMEeqBr6xDc0l2PQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML%20Core']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_xUMrwPQMEeqBr6xDc0l2PQ" name="goodWeather" repPath="#_xPH-gPQMEeqBr6xDc0l2PQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML%20Core']/@ownedRepresentations[name='IFMLDiagram']"/>
+        <target xmi:type="core:IFMLModel" href="models/My.core#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_xUKPgPQMEeqBr6xDc0l2PQ" name="goodWeather" uid="_xPH-gPQMEeqBr6xDc0l2PQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_xUKPgfQMEeqBr6xDc0l2PQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_xUKPgvQMEeqBr6xDc0l2PQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_xUm7cPQMEeqBr6xDc0l2PQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_xUm7cfQMEeqBr6xDc0l2PQ" type="Sirius" element="_xUKPgPQMEeqBr6xDc0l2PQ" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_xUm7cvQMEeqBr6xDc0l2PQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML%20Core']/@ownedRepresentations[name='IFMLDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_xUKPhPQMEeqBr6xDc0l2PQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML%20Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer"/>
+    <target xmi:type="core:IFMLModel" href="models/My.core#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
