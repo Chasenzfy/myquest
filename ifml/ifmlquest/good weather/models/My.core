@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="ASCII"?>
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" name="List">
   <interactionFlowModel>
-    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Main Interface" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.4/@viewElementEvents.0/@outInteractionFlows.0">
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Main Interface" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.4/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.4/@viewElements.2/@viewElementEvents.1/@outInteractionFlows.0">
       <viewElementEvents name="drop down">
         <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.3"/>
       </viewElementEvents>
       <viewElements xsi:type="ext:IFMLToolBar" name="ToolBar">
-        <viewElementEvents name="Refresh">
-          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.3"/>
-        </viewElementEvents>
-        <viewElementEvents name="Redirect">
-          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.2"/>
-        </viewElementEvents>
-        <viewElementEvents name="Menu">
-          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.4"/>
-        </viewElementEvents>
-        <viewElementEvents name="Search">
-          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.5"/>
-        </viewElementEvents>
-        <viewElements xsi:type="ext:Button" name="Menu"/>
-        <viewElements xsi:type="ext:Button" name="Redirect"/>
-        <viewElements xsi:type="ext:Button" name="Search"/>
-        <viewElements xsi:type="ext:Button" id="" name="Refresh"/>
+        <viewElements xsi:type="ext:Button" name="Menu">
+          <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+            <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.4"/>
+          </viewElementEvents>
+        </viewElements>
+        <viewElements xsi:type="ext:Button" name="Redirect">
+          <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+            <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.2"/>
+          </viewElementEvents>
+        </viewElements>
+        <viewElements xsi:type="ext:Button" name="Search">
+          <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+            <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.5"/>
+          </viewElementEvents>
+        </viewElements>
+        <viewElements xsi:type="ext:Button" id="" name="Refresh">
+          <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+            <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.3"/>
+          </viewElementEvents>
+        </viewElements>
         <viewElements xsi:type="ext:Text" name="Text"/>
       </viewElements>
       <viewElements xsi:type="ext:List" name="Weather Information"/>
@@ -34,42 +38,75 @@
       <viewElements xsi:type="ext:Text" name="Weather Information"/>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="core:IFMLAction" name="Share" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.2/@viewElementEvents.0/@outInteractionFlows.0"/>
-    <interactionFlowModelElements xsi:type="core:IFMLAction" name="Redirect" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0"/>
-    <interactionFlowModelElements xsi:type="core:IFMLAction" name="Refresh" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
-    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Side Menu" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.0/@viewElementEvents.2/@outInteractionFlows.0">
-      <viewElementEvents name="Swipe Left">
+    <interactionFlowModelElements xsi:type="core:IFMLAction" name="Redirect" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.0/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0"/>
+    <interactionFlowModelElements xsi:type="core:IFMLAction" name="Refresh Weather Information" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.0/@viewElements.3/@viewElementEvents.0/@outInteractionFlows.0"/>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Side Menu" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.6/@viewElements.0/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElementEvents xsi:type="ext:SwipeEvent" name="Swipe Event Left">
         <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
       </viewElementEvents>
       <viewElements xsi:type="ext:IFMLImage" name="Image"/>
       <viewElements xsi:type="ext:Text" name="Location Message"/>
       <viewElements xsi:type="ext:List" name="Button List">
-        <viewElementEvents name="Daily Forecast"/>
-        <viewElementEvents name="Current Weather"/>
+        <viewElementEvents name="Daily Forecast">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.6"/>
+        </viewElementEvents>
+        <viewElementEvents name="Current Weather">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
+        </viewElementEvents>
         <viewElementEvents name="Graphs"/>
         <viewElementEvents name="Settings"/>
         <viewElementEvents name="Feedback"/>
         <viewElementEvents name="Donate Bitcoin"/>
       </viewElements>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Search Interface" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.0/@viewElementEvents.3/@outInteractionFlows.0">
-      <viewElements xsi:type="ext:IFMLToolBar" name="ToolBar" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0">
-        <viewElementEvents name="Return">
-          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
-        </viewElementEvents>
-        <viewElementEvents name="Clear">
-          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0"/>
-          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1"/>
-        </viewElementEvents>
-        <viewElements xsi:type="ext:Button" name="Return"/>
-        <viewElements xsi:type="ext:EditText" name="Search Location"/>
-        <viewElements xsi:type="ext:Button" name="Clear"/>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Search Interface" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.0/@viewElements.2/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElements xsi:type="ext:IFMLToolBar" name="ToolBar">
+        <viewElements xsi:type="ext:Button" name="Return">
+          <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+            <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
+          </viewElementEvents>
+        </viewElements>
+        <viewElements xsi:type="ext:EditText" name="Search Location" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.2/@viewElementEvents.0/@outInteractionFlows.1"/>
+        <viewElements xsi:type="ext:Button" name="Clear">
+          <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+            <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1"/>
+            <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.1"/>
+          </viewElementEvents>
+        </viewElements>
       </viewElements>
-      <viewElements xsi:type="ext:List" name="Search Result List" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.1">
+      <viewElements xsi:type="ext:List" name="Search Result List" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElements.2/@viewElementEvents.0/@outInteractionFlows.0">
         <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
           <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
         </viewElementEvents>
       </viewElements>
     </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Daily Forecast" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.4/@viewElements.2/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElements xsi:type="ext:IFMLToolBar" name="ToolBar">
+        <viewElements xsi:type="ext:Button" name="Refresh">
+          <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+            <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.7"/>
+          </viewElementEvents>
+        </viewElements>
+        <viewElements xsi:type="ext:Button" name="Menu">
+          <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+            <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.4"/>
+          </viewElementEvents>
+        </viewElements>
+        <viewElements xsi:type="ext:Text" name="Text"/>
+      </viewElements>
+      <viewElements xsi:type="ext:List" name="Daily Forecast List">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.8"/>
+        </viewElementEvents>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:IFMLAction" name="Refresh Forecast Information" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.6/@viewElements.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Detailed Forecast Information" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.6/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElements xsi:type="ext:Text" name="Weather"/>
+      <viewElements xsi:type="ext:List" name="Temperature Information"/>
+      <viewElements xsi:type="ext:List" name="Detailed Information"/>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Graphs Weather"/>
   </interactionFlowModel>
   <domainModel>
     <domainElements xsi:type="core:UMLDomainConcept" name="Movie">
