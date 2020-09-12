@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_VHTAofSaEeqb1dUoOBDQMA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_VHTAovSaEeqb1dUoOBDQMA" bindingContexts="_VHTnsfSaEeqb1dUoOBDQMA">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList/>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;goodWeather&quot; tooltip=&quot;platform:/resource/good%20weather/representations.aird/goodWeather&quot;>&#xD;&#xA;&lt;persistable REP_DESC_URI=&quot;platform:/resource/good%20weather/representations.aird#_xUMrwPQMEeqBr6xDc0l2PQ&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/good%20weather/representations.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; name=&quot;goodWeather&quot; uri=&quot;platform:/resource/good%20weather/representations.aird#_xUm7cfQMEeqBr6xDc0l2PQ&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.sirius.ui.editor.session&quot; name=&quot;representations.aird&quot; tooltip=&quot;good weather/representations.aird&quot;>&#xD;&#xA;&lt;persistable path=&quot;/good weather/representations.aird&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_VHTAovSaEeqb1dUoOBDQMA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_VhUDI_SaEeqb1dUoOBDQMA" x="234" y="234" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_VHTAovSaEeqb1dUoOBDQMA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_VhUDI_SaEeqb1dUoOBDQMA" x="0" y="0" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -12,10 +12,8 @@
     <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time/>"/>
     <tags>topLevel</tags>
     <tags>shellMaximized</tags>
-    <children xsi:type="basic:PartSashContainer" xmi:id="_VhUDI_SaEeqb1dUoOBDQMA" selectedElement="_VhUDJfSaEeqb1dUoOBDQMA" horizontal="true">
-      <children xsi:type="advanced:PerspectiveStack" xmi:id="_VhUDJPSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.ide.perspectivestack" visible="false" containerData="7500" selectedElement="_VvBvAPSaEeqb1dUoOBDQMA">
-        <tags>Minimized</tags>
-        <tags>MinimizedByZoom</tags>
+    <children xsi:type="basic:PartSashContainer" xmi:id="_VhUDI_SaEeqb1dUoOBDQMA" selectedElement="_VhUDJPSaEeqb1dUoOBDQMA" horizontal="true">
+      <children xsi:type="advanced:PerspectiveStack" xmi:id="_VhUDJPSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_VvBvAPSaEeqb1dUoOBDQMA">
         <children xsi:type="advanced:Perspective" xmi:id="_VvBvAPSaEeqb1dUoOBDQMA" elementId="org.eclipse.sirius.ui.tools.perspective.modeling" selectedElement="_VvBvAfSaEeqb1dUoOBDQMA" label="Modeling" iconURI="platform:/plugin/org.eclipse.sirius.ui.ext/icons/full/others/ModelingPerspective.gif">
           <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,persp.hideToolbarSC:org.eclipse.debug.ui.commands.RunToLine,persp.hideToolbarSC:org.eclipse.jdt.ui.actions.OpenProjectWizard,"/>
           <tags>persp.actionSet:org.eclipse.acceleo.ide.ui.editors.template.actionSet</tags>
@@ -39,8 +37,8 @@
           <tags>persp.perspSC:org.eclipse.sirius.ui.tools.perspective.design</tags>
           <tags>persp.viewSC:org.eclipse.acceleo.ui.interpreter.view</tags>
           <tags>persp.newWizSC:org.eclipse.ecoretools.emf.design.wizardID</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_VvBvAfSaEeqb1dUoOBDQMA" selectedElement="_VvBvAvSaEeqb1dUoOBDQMA" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_VvBvAvSaEeqb1dUoOBDQMA" containerData="2500" selectedElement="_VvBvA_SaEeqb1dUoOBDQMA">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_VvBvAfSaEeqb1dUoOBDQMA" selectedElement="_VvBvB_SaEeqb1dUoOBDQMA" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_VvBvAvSaEeqb1dUoOBDQMA" containerData="1350" selectedElement="_VvBvA_SaEeqb1dUoOBDQMA">
               <children xsi:type="basic:PartStack" xmi:id="_VvBvA_SaEeqb1dUoOBDQMA" elementId="org.eclipse.sirius.ui.tools.views.model.explorerMStack" containerData="5000" selectedElement="_VvBvBPSaEeqb1dUoOBDQMA">
                 <children xsi:type="advanced:Placeholder" xmi:id="_VvBvBPSaEeqb1dUoOBDQMA" elementId="org.eclipse.sirius.ui.tools.views.model.explorer" ref="_Vu-rsPSaEeqb1dUoOBDQMA"/>
               </children>
@@ -48,7 +46,7 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_VvBvBvSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.views.ContentOutline" ref="_Vu_SwPSaEeqb1dUoOBDQMA"/>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_VvBvB_SaEeqb1dUoOBDQMA" containerData="7500">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_VvBvB_SaEeqb1dUoOBDQMA" containerData="8650" selectedElement="_VvBvCPSaEeqb1dUoOBDQMA">
               <children xsi:type="advanced:Placeholder" xmi:id="_VvBvCPSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.editorss" containerData="6500" ref="_Vu7BUPSaEeqb1dUoOBDQMA"/>
               <children xsi:type="basic:PartStack" xmi:id="_VvBvCfSaEeqb1dUoOBDQMA" elementId="bottom" containerData="3500" selectedElement="_VvBvCvSaEeqb1dUoOBDQMA">
                 <children xsi:type="advanced:Placeholder" xmi:id="_VvBvCvSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.views.PropertySheet" ref="_Vu_50PSaEeqb1dUoOBDQMA"/>
@@ -58,11 +56,9 @@
           </children>
         </children>
       </children>
-      <children xsi:type="basic:PartStack" xmi:id="_VhUDJfSaEeqb1dUoOBDQMA" elementId="stickyFolderRight" containerData="2500" selectedElement="_VhUDJ_SaEeqb1dUoOBDQMA">
-        <tags>active</tags>
-        <tags>Maximized</tags>
+      <children xsi:type="basic:PartStack" xmi:id="_VhUDJfSaEeqb1dUoOBDQMA" elementId="stickyFolderRight" toBeRendered="false" containerData="2500">
         <children xsi:type="advanced:Placeholder" xmi:id="_VhUDJvSaEeqb1dUoOBDQMA" elementId="org.eclipse.help.ui.HelpView" toBeRendered="false" ref="_VhUDIPSaEeqb1dUoOBDQMA"/>
-        <children xsi:type="advanced:Placeholder" xmi:id="_VhUDJ_SaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.internal.introview" ref="_VhUDIfSaEeqb1dUoOBDQMA"/>
+        <children xsi:type="advanced:Placeholder" xmi:id="_VhUDJ_SaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.internal.introview" toBeRendered="false" ref="_VhUDIfSaEeqb1dUoOBDQMA"/>
         <children xsi:type="advanced:Placeholder" xmi:id="_VhUqMPSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.cheatsheets.views.CheatSheetView" toBeRendered="false" ref="_VhUDIvSaEeqb1dUoOBDQMA"/>
       </children>
     </children>
@@ -78,13 +74,12 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view>&#xD;&#xA;&lt;presentation currentPage=&quot;root&quot; restore=&quot;true&quot;/>&#xD;&#xA;&lt;standbyPart/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
       <tags>activeOnClose</tags>
       <menus xmi:id="_V0JfkPSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.internal.introview">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_V0JfkfSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.internal.introview"/>
+      <toolbar xmi:id="_V0JfkfSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.internal.introview" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_VhUDIvSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.cheatsheets.views.CheatSheetView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Cheat Sheets" iconURI="platform:/plugin/org.eclipse.ui.cheatsheets/icons/view16/cheatsheet_view.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.cheatsheets.views.CheatSheetView"/>
@@ -92,10 +87,25 @@
       <tags>View</tags>
       <tags>categoryTag:Help</tags>
     </sharedElements>
-    <sharedElements xsi:type="advanced:Area" xmi:id="_Vu7BUPSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.editorss">
-      <children xsi:type="basic:PartStack" xmi:id="_Vu7BUfSaEeqb1dUoOBDQMA" elementId="org.eclipse.e4.primaryDataStack">
+    <sharedElements xsi:type="advanced:Area" xmi:id="_Vu7BUPSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.editorss" selectedElement="_Vu7BUfSaEeqb1dUoOBDQMA">
+      <children xsi:type="basic:PartStack" xmi:id="_Vu7BUfSaEeqb1dUoOBDQMA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_uOSdwPSbEeqPDe7n6q3VIw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <tags>active</tags>
+        <children xsi:type="basic:Part" xmi:id="_thebEPSbEeqPDe7n6q3VIw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="good%20weather" iconURI="platform:/plugin/org.eclipse.sirius.ui.editor/icons/SiriusFile.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.sirius.ui.editor.session&quot; name=&quot;representations.aird&quot; partName=&quot;good%20weather&quot; title=&quot;good%20weather&quot; tooltip=&quot;good weather/representations.aird&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/good weather/representations.aird&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.sirius.ui.editor.session</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_uOSdwPSbEeqPDe7n6q3VIw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="goodWeather" iconURI="platform:/plugin/org.eclipse.sirius.diagram.ui/icons/DDiagram.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;goodWeather&quot; partName=&quot;goodWeather&quot; title=&quot;goodWeather&quot; tooltip=&quot;platform:/resource/good%20weather/representations.aird/goodWeather&quot;>&#xD;&#xA;&lt;input REP_DESC_URI=&quot;platform:/resource/good%20weather/representations.aird#_xUMrwPQMEeqBr6xDc0l2PQ&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/good%20weather/representations.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; name=&quot;goodWeather&quot; uri=&quot;platform:/resource/good%20weather/representations.aird#_xUm7cfQMEeqBr6xDc0l2PQ&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID</tags>
+          <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
+        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_Vu-rsPSaEeqb1dUoOBDQMA" elementId="org.eclipse.sirius.ui.tools.views.model.explorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Model Explorer" iconURI="platform:/plugin/org.eclipse.sirius.ui.ext/icons/full/others/ModelExplorer.gif" tooltip="" closeable="true">
@@ -147,7 +157,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VqUOIPSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_VqWqYvSaEeqb1dUoOBDQMA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_VIPcIfSaEeqb1dUoOBDQMA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_nqrl0PSmEeqMb-oDg9WJqA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_VIPcIfSaEeqb1dUoOBDQMA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VqUOIfSaEeqb1dUoOBDQMA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -165,7 +175,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VqUOJfSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_VqXRdvSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_VIO1SPSaEeqb1dUoOBDQMA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_nqtbAPSmEeqMb-oDg9WJqA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_VIO1SPSaEeqb1dUoOBDQMA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VqUOJvSaEeqb1dUoOBDQMA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -199,8 +209,8 @@
         <tags>Draggable</tags>
       </children>
     </trimBars>
-    <trimBars xmi:id="_VHTApfSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.trim.vertical1" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Left">
-      <children xsi:type="menu:ToolControl" xmi:id="_V1lqAPSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.ide.perspectivestack(minimized)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+    <trimBars xmi:id="_VHTApfSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.trim.vertical1" contributorURI="platform:/plugin/org.eclipse.ui.workbench" toBeRendered="false" side="Left">
+      <children xsi:type="menu:ToolControl" xmi:id="_V1lqAPSaEeqb1dUoOBDQMA" elementId="org.eclipse.ui.ide.perspectivestack(minimized)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
         <tags>Draggable</tags>
       </children>
