@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <interactionFlowModel>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Main interface" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.1/@viewElements.5/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.1/@viewElements.4/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.3/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.1/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElements xsi:type="ext:IFMLToolBar" name="ToolBar">
+        <viewElements xsi:type="ext:Button" name="Main Menu">
+          <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+            <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.1"/>
+          </viewElementEvents>
+        </viewElements>
+        <viewElements xsi:type="ext:Button" name="Side Menu">
+          <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+            <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.2"/>
+          </viewElementEvents>
+        </viewElements>
+        <viewElements xsi:type="ext:Button" name="Sort"/>
+        <viewElements xsi:type="ext:Text" name="Text"/>
+      </viewElements>
+      <viewElements xsi:type="ext:List" name="List of notes"/>
+      <viewElements xsi:type="ext:Button" name="New note">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.3"/>
+        </viewElementEvents>
+      </viewElements>
+      <viewElements xsi:type="core:ViewContainer" name="ViewContainer" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.2/@viewElementEvents.0/@outInteractionFlows.0" isXOR="true">
+        <viewElements xsi:type="ext:List" name="List of New note choices">
+          <viewElementEvents name="New audio"/>
+          <viewElementEvents name="New text"/>
+          <viewElementEvents name="New sketch"/>
+          <viewElementEvents name="New checklist"/>
+        </viewElements>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Main Menu" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElementEvents xsi:type="ext:PinchEvent" name="Back Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
+      </viewElementEvents>
+      <viewElementEvents xsi:type="ext:SwipeEvent" name="Swipe Left">
+        <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
+      </viewElementEvents>
+      <viewElements xsi:type="ext:IFMLImage" name="Image"/>
+      <viewElements xsi:type="ext:Text" name="Text"/>
+      <viewElements xsi:type="ext:Button" name="Manage Categories">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.3"/>
+        </viewElementEvents>
+      </viewElements>
+      <viewElements xsi:type="ext:Button" name="Recycle Bin">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.4"/>
+        </viewElementEvents>
+      </viewElements>
+      <viewElements xsi:type="ext:Button" name="All notes">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
+        </viewElementEvents>
+      </viewElements>
+      <viewElements xsi:type="ext:List" name="List of Categories">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
+        </viewElementEvents>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Side Menu" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.0/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0"/>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Manage Categories" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.1/@viewElements.2/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.5/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElementEvents xsi:type="ext:PinchEvent" name="Back Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
+      </viewElementEvents>
+      <viewElements xsi:type="ext:EditText" name="Name"/>
+      <viewElements xsi:type="ext:Button" name="Add">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.7"/>
+        </viewElementEvents>
+      </viewElements>
+      <viewElements xsi:type="ext:List" name="List" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.3/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.5"/>
+        </viewElementEvents>
+        <viewElementEvents xsi:type="ext:LongPressEvent" name="LongPress Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.3"/>
+        </viewElementEvents>
+      </viewElements>
+      <viewElements xsi:type="ext:IFMLToolBar" name="ToolBar" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.2/@viewElementEvents.1/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.3/@viewElementEvents.0/@outInteractionFlows.0" isXOR="true">
+        <viewElementEvents xsi:type="ext:PinchEvent" name="Back Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.3"/>
+        </viewElementEvents>
+        <viewElements xsi:type="ext:Button" name="Delete">
+          <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+            <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.2"/>
+            <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.6"/>
+          </viewElementEvents>
+        </viewElements>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Recycle Bin" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.1/@viewElements.3/@viewElementEvents.0/@outInteractionFlows.0"/>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Delete Category" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.2/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElementEvents xsi:type="ext:PinchEvent" name="Back Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.3"/>
+      </viewElementEvents>
+      <viewElements xsi:type="ext:Button" name="Cancel">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.3"/>
+        </viewElementEvents>
+      </viewElements>
+      <viewElements xsi:type="ext:Button" name="Okay">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.6"/>
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.3"/>
+        </viewElementEvents>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:IFMLAction" name="Delete Category" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.3/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1"/>
+    <interactionFlowModelElements xsi:type="core:IFMLAction" name="Add Category" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0"/>
+  </interactionFlowModel>
+  <domainModel>
+    <domainElements xsi:type="core:UMLDomainConcept" name="Movie">
+      <classifier xsi:type="uml:Class" href="model.uml#__W1boJ6PEeGdnpRmAZh-dQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" name="title">
+      <structuralFeature xsi:type="uml:Property" href="model.uml#_jEpi8J6QEeGdnpRmAZh-dQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" name="year">
+      <structuralFeature xsi:type="uml:Property" href="model.uml#_jm9l0J6QEeGdnpRmAZh-dQ"/>
+    </domainElements>
+  </domainModel>
+</core:IFMLModel>
