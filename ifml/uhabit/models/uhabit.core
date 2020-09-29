@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <interactionFlowModel>
-    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Main interface" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.3/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.4/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.8/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.9/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.10/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.3/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.2/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.8/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.8/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.18/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.19/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.18/@viewElements.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.18/@viewElements.0/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.19/@viewElements.0/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.19/@viewElements.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.30/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.20/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.3 //@interactionFlowModel/@interactionFlowModelElements.20/@viewElementEvents.0/@outInteractionFlows.2 //@interactionFlowModel/@interactionFlowModelElements.35/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.1">
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Main interface" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.3/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.4/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.8/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.9/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.10/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.3/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.2/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.8/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.8/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.18/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.19/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.18/@viewElements.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.18/@viewElements.0/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.19/@viewElements.0/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.19/@viewElements.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.30/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.20/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.3 //@interactionFlowModel/@interactionFlowModelElements.20/@viewElementEvents.0/@outInteractionFlows.2 //@interactionFlowModel/@interactionFlowModelElements.35/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.36/@viewElements.0/@viewElements.2/@viewElementEvents.0/@outInteractionFlows.0">
       <viewElements xsi:type="ext:IFMLToolBar" name="ToolBar" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.4/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.4/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0" isDefault="true" isXOR="true">
         <viewElements xsi:type="ext:Text" name="Text"/>
         <viewElements xsi:type="ext:Button" name="Side Menu">
@@ -25,7 +25,9 @@
         <viewElementEvents xsi:type="ext:LongPressEvent" name="LongPress Event">
           <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.4"/>
         </viewElementEvents>
-        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event"/>
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.36"/>
+        </viewElementEvents>
       </viewElements>
       <viewElements xsi:type="ext:List" name="List of Completion status">
         <viewElementEvents xsi:type="ext:LongPressEvent" name="LongPress Event">
@@ -269,10 +271,10 @@
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="core:IFMLAction" name="Set first day" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.12/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1"/>
     <interactionFlowModelElements xsi:type="core:IFMLAction" name="Set notifications" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.4/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.3/@viewElementEvents.0/@outInteractionFlows.0"/>
-    <interactionFlowModelElements xsi:type="core:IFMLAction" name="Share" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.5/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.6/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.8/@viewElementEvents.0/@outInteractionFlows.0"/>
+    <interactionFlowModelElements xsi:type="core:IFMLAction" name="Share" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.5/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.6/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.8/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.37/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
     <interactionFlowModelElements xsi:type="core:IFMLAction" name="Choose File" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.7/@viewElementEvents.0/@outInteractionFlows.0"/>
     <interactionFlowModelElements xsi:type="core:IFMLAction" name="Fix database" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.9/@viewElementEvents.0/@outInteractionFlows.0"/>
-    <interactionFlowModelElements xsi:type="core:ViewContainer" name="New habit yes or no" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.9/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.20/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.22/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.20/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.22/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.23/@viewElements.4/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.23/@viewElements.5/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.23/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.24/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.24/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.24/@viewElements.2/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.4/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0">
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="New habit yes or no" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.9/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.20/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.22/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.20/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.22/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.23/@viewElements.4/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.23/@viewElements.5/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.23/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.24/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.24/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.24/@viewElements.2/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.4/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.36/@viewElements.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
       <viewElementEvents xsi:type="ext:PinchEvent" name="Back Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
       </viewElementEvents>
@@ -313,7 +315,7 @@
         </viewElementEvents>
       </viewElements>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="core:ViewContainer" name="New habit measurable" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.9/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.20/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.20/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.2 //@interactionFlowModel/@interactionFlowModelElements.23/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.23/@viewElements.4/@viewElementEvents.0/@outInteractionFlows.2 //@interactionFlowModel/@interactionFlowModelElements.23/@viewElements.5/@viewElementEvents.0/@outInteractionFlows.2 //@interactionFlowModel/@interactionFlowModelElements.22/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.22/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.24/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.24/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.24/@viewElements.2/@viewElementEvents.0/@outInteractionFlows.2 //@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.4/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.1">
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="New habit measurable" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.9/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.20/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.20/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.2 //@interactionFlowModel/@interactionFlowModelElements.23/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.23/@viewElements.4/@viewElementEvents.0/@outInteractionFlows.2 //@interactionFlowModel/@interactionFlowModelElements.23/@viewElements.5/@viewElementEvents.0/@outInteractionFlows.2 //@interactionFlowModel/@interactionFlowModelElements.22/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.22/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.24/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.24/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.24/@viewElements.2/@viewElementEvents.0/@outInteractionFlows.2 //@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.4/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.36/@viewElements.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1">
       <viewElementEvents xsi:type="ext:PinchEvent" name="Back Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
       </viewElementEvents>
@@ -441,8 +443,8 @@
     <interactionFlowModelElements xsi:type="core:IFMLAction" name="Hide Notification date" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.23/@viewElements.4/@viewElementEvents.0/@outInteractionFlows.1"/>
     <interactionFlowModelElements xsi:type="core:IFMLAction" name="Change Notification date" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.24/@viewElements.2/@viewElementEvents.0/@outInteractionFlows.1"/>
     <interactionFlowModelElements xsi:type="core:IFMLAction" name="New habit" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.18/@viewElements.0/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.19/@viewElements.0/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0"/>
-    <interactionFlowModelElements xsi:type="core:IFMLAction" name="Change Status" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.3/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.30/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0"/>
-    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Change Measuable Status" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.3/@viewElementEvents.0/@outInteractionFlows.1">
+    <interactionFlowModelElements xsi:type="core:IFMLAction" name="Change Status" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.3/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.30/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.40/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Change Measuable Status" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.3/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.40/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1">
       <viewElementEvents xsi:type="ext:PinchEvent" name="Back Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
       </viewElementEvents>
@@ -471,13 +473,15 @@
     <interactionFlowModelElements xsi:type="core:IFMLAction" name="Save Habit" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.31/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
     <interactionFlowModelElements xsi:type="core:IFMLAction" name="Undo Save Habit" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.31/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0"/>
     <interactionFlowModelElements xsi:type="core:IFMLAction" name="Delete Habit" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.35/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0"/>
-    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Confirm Delete">
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Confirm Delete" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.37/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0">
       <viewElementEvents xsi:type="ext:PinchEvent" name="Back Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.4"/>
+        <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.36"/>
       </viewElementEvents>
       <viewElements xsi:type="ext:Button" name="Cancel">
         <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
           <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.4"/>
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.36"/>
         </viewElementEvents>
       </viewElements>
       <viewElements xsi:type="ext:Button" name="Confirm">
@@ -487,6 +491,94 @@
         </viewElementEvents>
       </viewElements>
     </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Habit Details" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.2/@viewElementEvents.1/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.35/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.35/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.37/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.38/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.38/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.39/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.40/@viewElementEvents.0/@outInteractionFlows.1 //@interactionFlowModel/@interactionFlowModelElements.39/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1">
+      <viewElements xsi:type="ext:IFMLToolBar" name="ToolBar">
+        <viewElements xsi:type="ext:Button" name="Edit">
+          <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+            <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.18"/>
+            <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.19"/>
+          </viewElementEvents>
+        </viewElements>
+        <viewElements xsi:type="ext:Button" name="Side Menu">
+          <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+            <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.37"/>
+          </viewElementEvents>
+        </viewElements>
+        <viewElements xsi:type="ext:Button" name="Back">
+          <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+            <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
+          </viewElementEvents>
+        </viewElements>
+      </viewElements>
+      <viewElements xsi:type="ext:List" name="List of Text and Image"/>
+      <viewElements xsi:type="ext:Button" name="Score Scale">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.38"/>
+        </viewElementEvents>
+      </viewElements>
+      <viewElements xsi:type="ext:Button" name="History Scale">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.39"/>
+        </viewElementEvents>
+      </viewElements>
+      <viewElements xsi:type="ext:Button" name="Edit Record">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.40"/>
+        </viewElementEvents>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Details Side Menu" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.36/@viewElements.0/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElementEvents xsi:type="ext:PinchEvent" name="Back Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.36"/>
+      </viewElementEvents>
+      <viewElements xsi:type="ext:Button" name="Export">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.15"/>
+        </viewElementEvents>
+      </viewElements>
+      <viewElements xsi:type="ext:Button" name="Delete">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.35"/>
+        </viewElementEvents>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Score Scale" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.36/@viewElements.2/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElementEvents xsi:type="ext:PinchEvent" name="Back Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.36"/>
+      </viewElementEvents>
+      <viewElements xsi:type="ext:List" name="List of Score Scale">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.36"/>
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.41"/>
+        </viewElementEvents>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="History Scale" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.36/@viewElements.3/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElementEvents xsi:type="ext:PinchEvent" name="Back Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow"/>
+        <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.36"/>
+      </viewElementEvents>
+      <viewElements xsi:type="ext:List" name="List of History Scale">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.42"/>
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.36"/>
+        </viewElementEvents>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" name="Edit Record" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.36/@viewElements.4/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElementEvents xsi:type="ext:PinchEvent" name="Back Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow"/>
+        <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.36"/>
+      </viewElementEvents>
+      <viewElements xsi:type="ext:List" name="List of Date">
+        <viewElementEvents xsi:type="ext:TouchEvent" name="Touch Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.29"/>
+          <outInteractionFlows xsi:type="core:NavigationFlow" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.30"/>
+        </viewElementEvents>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:IFMLAction" name="Change Score Scale" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.38/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1"/>
+    <interactionFlowModelElements xsi:type="core:IFMLAction" name="Change History Scale" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.39/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
   </interactionFlowModel>
   <domainModel>
     <domainElements xsi:type="core:UMLDomainConcept" name="Movie">
